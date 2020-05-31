@@ -1,0 +1,19 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="178">
+            <File firstVisibleLine="129" xOffset="0" scrollWidth="1" startPos="6487" endPos="6493" selMode="0" offset="0" wrapCount="1" lang="Normal Text" encoding="-1" userReadOnly="no" filename="C:\I\___AAA\Documents\A.txt" backupFilePath="" originalFileLastModifTimestamp="715936687" originalFileLastModifTimestampHigh="30404300" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="190360616" mapWrapIndentMode="-1" mapIsWrap="no" />
+           <File firstVisibleLine="28" xOffset="0" scrollWidth="846080" startPos="1085" endPos="1100" selMode="0" offset="0" wrapCount="1" lang="Normal Text" encoding="-1" userReadOnly="no" filename="C:\I\ValueCases\OverdueItems\B.txt" backupFilePath="" originalFileLastModifTimestamp="-1332119454" originalFileLastModifTimestampHigh="30369304" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="397" xOffset="0" scrollWidth="1316" startPos="14472" endPos="14472" selMode="0" offset="0" wrapCount="0" lang="Normal Text" encoding="-1" userReadOnly="no" filename="C:\I\C.txt" backupFilePath="" originalFileLastModifTimestamp="51240755" originalFileLastModifTimestampHigh="30602452" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no">
+                <Mark line="409" />
+            </File>
+            <File firstVisibleLine="4" xOffset="0" scrollWidth="6480" startPos="752" endPos="764" selMode="0" offset="0" wrapCount="0" lang="Normal Text" encoding="-1" userReadOnly="no" filename="C:\D.txt" backupFilePath="" originalFileLastModifTimestamp="-981804190" originalFileLastModifTimestampHigh="30528025" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no">
+                <Mark line="381" />
+            </File>
+            <File firstVisibleLine="27348" xOffset="0" scrollWidth="215732" startPos="1027182" endPos="1027182" selMode="0" offset="0" wrapCount="1" lang="Normal Text" encoding="-1" userReadOnly="no" filename="C:\E.txt" backupFilePath="" originalFileLastModifTimestamp="-1609367283" originalFileLastModifTimestampHigh="30812046" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no">
+                <Mark line="5491" />
+                <Mark line="6180" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="17192" startPos="167" endPos="167" selMode="0" offset="0" wrapCount="0" lang="Shell" encoding="-1" userReadOnly="no" filename="C:\I\ScriptsOnTheServer\cron.daily\AFile" backupFilePath="" originalFileLastModifTimestamp="-154415104" originalFileLastModifTimestampHigh="30496898" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
