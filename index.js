@@ -6,19 +6,37 @@ var parseString = require('xml2js').parseString;
 const readFilePromise = util.promisify(fs.readFile);
 const parseStringPromise = util.promisify(parseString);
 
-const filename = 'nppSessionFileSample.xml';
+const filename = 'C:\\Users\\bachmh\\git\\Utils\\currentSession.xml';
 
 readFilePromise(filename, 'utf8')
   .then(parseStringPromise)
   .then((result) => result.NotepadPlus.Session[0].mainView[0].File)
   .then((filelist) =>
     ff.formatfilePaths(
-      '/media/UserABCD123/1b343b28-fedd-46bd-bc2c-aa5edbbdab8d/EXTHD/C',
+      '\\',
       filelist
     )
   )
   .then((filelist) => {
-    ff.copyFiles('/home/d023975/np++', filelist);
+    //console.log(filelist);
+    ff.copyFiles('C:\\STUFF\\' , filelist);
+  })
+  .catch((err) => {
+    console.log('Error', err);
+  });
+
+  readFilePromise(filename, 'utf8')
+  .then(parseStringPromise)
+  .then((result) => result.NotepadPlus.Session[0].subView[0].File)
+  .then((filelist) =>
+    ff.formatfilePaths(
+      '\\',
+      filelist
+    )
+  )
+  .then((filelist) => {
+    //console.log(filelist);
+    ff.copyFiles('C:\\STUFF\\' , filelist);
   })
   .catch((err) => {
     console.log('Error', err);

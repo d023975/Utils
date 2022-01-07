@@ -7,18 +7,18 @@ function formatfilePaths(prefix, filelist) {
     let absolutePathLin = absolutePathWin
       .replace(/^[A-Z]:\\/, '/')
       .replace(/\\/g, '/');
-    return `/media/d023975/1b343b28-fedd-46bd-bc2c-aa5edbbdab8d/EXTHD/C${absolutePathLin}`;
+    return `${absolutePathWin}`;
   });
   return fileListLin;
 }
 
 function copyFiles(targetFolder, fileList) {
-  let prefix = `${targetFolder}/`;
+  let prefix = targetFolder;
   fileList.forEach((element) => {
     let srcfileName = element;
-    console.log(srcfileName);
     let basename = path.basename(srcfileName);
-    let destname = `${prefix}${basename}`;
+    let destname = prefix+basename;
+    console.log('src:  '+ srcfileName);
     console.log(destname);
     copyFile(srcfileName, destname);
   });
